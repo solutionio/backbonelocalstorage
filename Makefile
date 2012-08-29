@@ -1,6 +1,11 @@
-test:
-	open tests/test.html
-	open tests/test2.html
 
-minified:
-	uglifyjs -o backbone.localStorage-min.js backbone.localStorage.js
+build: components
+	@component build
+
+components:
+	@Component install --dev
+
+clean:
+	rm -fr build components template.js
+
+.PHONY: clean

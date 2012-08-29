@@ -1,0 +1,12 @@
+{
+  "name": "Backbone.localStorage",
+  "description": "Local Storage for Backbone Models",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+		"solutionio/backbone": "*"
+	},
+	"scripts": [
+		"index.js"	
+	]
+}
